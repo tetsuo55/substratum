@@ -56,6 +56,7 @@ import android.widget.AdapterView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
+import android.widget.SpinnerAdapter;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -677,7 +678,7 @@ public class Overlays extends Fragment {
                         type3.add(new VariantItem(current.substring(6), null));
                     }
                 }
-                VariantAdapter adapter1 = new VariantAdapter(getActivity(), type3);
+                SpinnerAdapter adapter1 = new VariantAdapter(getActivity(), type3);
                 if (type3.size() > 1) {
                     toggle_all_overlays_text.setVisibility(View.GONE);
                     base_spinner.setVisibility(View.VISIBLE);
@@ -788,7 +789,7 @@ public class Overlays extends Fragment {
 
     @SuppressWarnings("unchecked")
     public void invokeLogCharLunchBar(Context context) {
-        StringBuilder errorLogCopy = new StringBuilder(error_logs);
+        CharSequence errorLogCopy = new StringBuilder(error_logs);
         error_logs = new StringBuilder();
         currentShownLunchBar = Lunchbar.make(
                 getActivityView(),
@@ -801,7 +802,7 @@ public class Overlays extends Fragment {
         currentShownLunchBar.show();
     }
 
-    public void invokeLogCharDialog(Context context, StringBuilder logs) {
+    public void invokeLogCharDialog(Context context, CharSequence logs) {
         android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(context)
                 .setTitle(R.string.logcat_dialog_title)
                 .setMessage("\n" + logs)

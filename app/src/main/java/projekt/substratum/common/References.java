@@ -538,7 +538,7 @@ public class References {
     }
 
     @SuppressWarnings("deprecation")
-    public static String parseTime(Context context, int hour, int minute) {
+    public static CharSequence parseTime(Context context, int hour, int minute) {
         Locale locale;
         String parse;
 
@@ -583,7 +583,7 @@ public class References {
     }
 
     // Copy an object to the system's clipboard
-    public static void copyToClipboard(Context context, String id, String content) {
+    public static void copyToClipboard(Context context, CharSequence id, CharSequence content) {
         ClipboardManager clipboard =
                 (ClipboardManager) context.getSystemService(CLIPBOARD_SERVICE);
         ClipData clip = ClipData.newPlainText(id, content);
