@@ -34,7 +34,8 @@ import static projekt.substratum.common.Systems.checkAndromeda;
 import static projekt.substratum.common.Systems.checkThemeInterfacer;
 import static projekt.substratum.common.Systems.isSamsung;
 
-public class Resources {
+public enum Resources {
+    ;
 
     // Filter to adjust framework elements
     private static final String[] ALLOWED_FRAMEWORK_ELEMENTS = {
