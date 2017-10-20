@@ -621,7 +621,7 @@ public class ManagerFragment extends Fragment implements SearchView.OnQueryTextL
             ManagerFragment fragment = ref.get();
             if (fragment != null) {
                 Context context = fragment.context;
-                if (result != null && result.equals("unauthorized")) {
+                if (result != null && "unauthorized".equals(result)) {
                     Toast.makeText(context,
                             fragment.getString(R.string.manage_system_not_permitted),
                             Toast.LENGTH_LONG).show();
@@ -838,7 +838,7 @@ public class ManagerFragment extends Fragment implements SearchView.OnQueryTextL
                         File currentDir = new File(LEGACY_NEXUS_DIR);
                         String[] listed = currentDir.list();
                         for (String file : listed) {
-                            if (file.substring(file.length() - 4).equals(".apk")) {
+                            if (".apk".equals(file.substring(file.length() - 4))) {
                                 fragment.activated_overlays.add(file.substring(0,
                                         file.length() - 4));
                             }
@@ -915,7 +915,7 @@ public class ManagerFragment extends Fragment implements SearchView.OnQueryTextL
             ManagerFragment fragment = ref.get();
             if (fragment != null) {
                 Context context = fragment.context;
-                if (result != null && result.equals("unauthorized")) {
+                if (result != null && "unauthorized".equals(result)) {
                     Toast.makeText(context,
                             fragment.getString(R.string.manage_system_not_permitted),
                             Toast.LENGTH_LONG).show();
