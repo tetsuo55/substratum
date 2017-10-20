@@ -243,7 +243,7 @@ public class Fonts extends Fragment {
         }
     }
 
-    private static class FontsClearer extends AsyncTask<String, Integer, String> {
+    private static final class FontsClearer extends AsyncTask<String, Integer, String> {
 
         private WeakReference<Fonts> ref;
 

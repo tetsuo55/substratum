@@ -404,7 +404,7 @@ public class ManagerFragment extends Fragment implements SearchView.OnQueryTextL
         return true;
     }
 
-    private static class LayoutReloader extends AsyncTask<Void, Void, Void> {
+    private static final class LayoutReloader extends AsyncTask<Void, Void, Void> {
         private WeakReference<ManagerFragment> ref;
         private WeakReference<String> userInput;
         private int currentPosition;
@@ -599,7 +599,7 @@ public class ManagerFragment extends Fragment implements SearchView.OnQueryTextL
         }
     }
 
-    private static class RunEnable extends AsyncTask<String, Integer, String> {
+    private static final class RunEnable extends AsyncTask<String, Integer, String> {
         // This will be the oms enable
         private WeakReference<ManagerFragment> ref;
 
@@ -686,7 +686,7 @@ public class ManagerFragment extends Fragment implements SearchView.OnQueryTextL
         }
     }
 
-    private static class RunDisable extends AsyncTask<Void, Void, String> {
+    private static final class RunDisable extends AsyncTask<Void, Void, String> {
         // This will be the rro disable
         private WeakReference<ManagerFragment> ref;
 
@@ -893,7 +893,7 @@ public class ManagerFragment extends Fragment implements SearchView.OnQueryTextL
         }
     }
 
-    private static class RunEnableDisable extends AsyncTask<String, Integer, String> {
+    private static final class RunEnableDisable extends AsyncTask<String, Integer, String> {
         // This will be the oms enable/disable
         private WeakReference<ManagerFragment> ref;
 
@@ -984,7 +984,7 @@ public class ManagerFragment extends Fragment implements SearchView.OnQueryTextL
         }
     }
 
-    private static class RunUninstall extends AsyncTask<Void, Void, Void> {
+    private static final class RunUninstall extends AsyncTask<Void, Void, Void> {
         private WeakReference<ManagerFragment> ref;
 
         private RunUninstall(ManagerFragment fragment) {
@@ -1062,7 +1062,7 @@ public class ManagerFragment extends Fragment implements SearchView.OnQueryTextL
         }
     }
 
-    private static class FinishReceiver extends BroadcastReceiver {
+    private static final class FinishReceiver extends BroadcastReceiver {
         private WeakReference<ManagerFragment> ref;
 
         private FinishReceiver(ManagerFragment fragment) {

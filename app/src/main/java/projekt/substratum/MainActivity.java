@@ -1035,7 +1035,7 @@ public class MainActivity extends SubstratumActivity implements
         return false;
     }
 
-    private static class RootRequester extends AsyncTask<Void, Void, Boolean> {
+    private static final class RootRequester extends AsyncTask<Void, Void, Boolean> {
         boolean isRunning = true;
         private WeakReference<MainActivity> ref;
 
