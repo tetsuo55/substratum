@@ -134,7 +134,7 @@ public class MainActivity extends SubstratumActivity implements
     private static final String SELECTED_DRAWER_ITEM = "selected_drawer_item";
     public static String userInput = "";
     private static MenuItem searchItem;
-    public static ArrayList<String> queuedUninstall;
+    public static List<String> queuedUninstall;
     private static ActionBar supportActionBar;
     private TextView actionbar_title;
     public TextView actionbar_content;
