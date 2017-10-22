@@ -22,91 +22,54 @@
     <!-- commons-io -->
     <!-- Author section -->
     <!-- Library section -->
-    <string name="library_commons_io_libraryDescription">Commons IO egy segédprogramok könyvtár,
-        mely az IO funkcionalitás fejlesztését segíti.
-    </string>
     <!-- OpenSource section -->
     <!-- ClassPath for autoDetect section -->
     <!-- License section -->
     <!-- Gesture RecyclerView -->
     <!-- Author section -->
     <!-- Library section -->
-    <string name="library_gesturerecycler_libraryDescription">Ez a könyvtár biztosítja a csúsztatási és
-        fogd és vidd támogatást a RecyclerView részére.
-    </string>
     <!-- OpenSource section -->
     <!-- ClassPath for autoDetect section -->
     <!-- License section -->
     <!-- KenBurnsView -->
     <!-- Author section -->
-    <string name="library_kenburnsview_author">Flávio Faria</string>
-    <string name="library_kenburnsview_authorWebsite">
-        https://plus.google.com/+Fl%C3%A1vioFaria1/posts
-    </string>
     <!-- Library section -->
-    <string name="library_kenburnsview_libraryDescription">Android könyvtár, amely egy kiterjesztést
-        biztosít az ImageView részére, mely teljes képernyős élményt hoz létre a megjelenítendők animálásával
-        a Ken Burns Effekt alkalmazásával.
-    </string>
     <!-- OpenSource section -->
     <!-- ClassPath for autoDetect section -->
     <!-- License section -->
     <!-- Material Sheet Fab -->
     <!-- Author section -->
     <!-- Library section -->
-    <string name="library_materialsheetfab_libraryDescription">Ez a könyvtár, amely végrehajtja a lebegő
-        műveletgomb (FAB) és lap közötti átmenetet a Google Material Design dokumentáció alapján.
-        Felhasználható bármely FAB könyvtár esetén Android 4.0+ (API szint &gt;= 14) rendszerhez.
-    </string>
     <!-- OpenSource section -->
     <!-- ClassPath for autoDetect section -->
     <!-- License section -->
     <!-- Welcome -->
     <!-- Author section -->
     <!-- Library section -->
-    <string name="library_welcome_android_libraryDescription">Egy könnyen használható és testreszabható
-        üdvözlő képernyő Android alkalmazások részére.
-    </string>
     <!-- OpenSource section -->
     <!-- ClassPath for autoDetect section -->
     <!-- License section -->
     <!-- ZipSigner -->
     <!-- Author section -->
     <!-- Library section -->
-    <string name="library_zipsigner_libraryDescription">ZipSigner egy Android könyvtár
-        Zip, Apk, és/vagy Jar fájlok aláírásához az Android készülékeken.
-    </string>
     <!-- OpenSource section -->
     <!-- ClassPath for autoDetect section -->
     <!-- License section -->
     <!-- ZT-Zip -->
     <!-- Author section -->
     <!-- Library section -->
-    <string name="library_zt_zip_libraryDescription">Ez a projekt a java.util.zip.* csomagok
-        használatával épült a stream-alapú hozzáféréshez. A fájlrendszer használati leggyakoribb
-        módszerek is támogatottak.
-    </string>
     <!-- OpenSource section -->
     <!-- ClassPath for autoDetect section -->
     <!-- License section -->
     <!-- Floating View -->
     <!-- Author section -->
-    <string name="library_floatingview_author">Recruit Lifestyle Co. Ltd.</string>
-    <string name="library_floatingview_authorWebsite">http://engineer.recruit-lifestyle.co.jp/</string>
     <!-- Library section -->
-    <string name="library_floatingview_libraryName">FloatingView</string>
-    <string name="library_floatingview_libraryDescription">Egy Android könyvtár az Úszó nézethez a nyílt forráskódú közösségnek, mint például a Facebook csevegő-fejek.</string>
-    <string name="library_floatingview_libraryWebsite">https://github.com/recruit-lifestyle/FloatingView/</string>
-    <string name="library_floatingview_libraryVersion">2.2</string>
     <!-- OpenSource section -->
-    <string name="library_floatingview_repositoryLink">https://github.com/recruit-lifestyle/FloatingView/</string>
     <!-- ClassPath for autoDetect section -->
-    <string name="library_floatingview_classPath">jp.co.recruit_lifestyle.android.floatingview.FloatingView</string>
     <!-- License section -->
     <!-- ExpandableLayout -->
     <!-- Author section -->
     <!-- Library section -->
-    <string name="library_expandablelayout_libraryDescription">Egy Android elrendezési osztály, amely támogatja az animált kibontást és összecsukást az alárendelt nézeteiben.</string>
     <!-- OpenSource section -->
     <!-- ClassPath for autoDetect section -->
     <!-- License section -->
