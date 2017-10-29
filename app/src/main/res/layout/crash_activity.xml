@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center">
@@ -9,7 +8,7 @@
         android:id="@+id/blob"
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:src="@drawable/ic_error_report"/>
+        android:src="@drawable/ic_error_report" />
 
     <TextView
         android:id="@+id/title"
@@ -21,7 +20,7 @@
         android:text="@string/error_activity_title"
         android:textAllCaps="true"
         android:textColor="?android:textColorPrimary"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text"
@@ -29,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/title"
         android:layout_centerInParent="true"
-        android:text="@string/error_activity_text"/>
+        android:text="@string/error_activity_text" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -48,7 +47,7 @@
             android:drawableEnd="@drawable/ic_relaunch_activity"
             android:drawablePadding="5dp"
             android:text="@string/error_activity_button_restart"
-            android:textColor="?android:textColorPrimary"/>
+            android:textColor="?android:textColorPrimary" />
 
         <Button
             android:id="@+id/rescue_me"
@@ -59,7 +58,7 @@
             android:drawableEnd="@drawable/ic_rescue_me"
             android:drawablePadding="5dp"
             android:text="@string/error_activity_button_disable_overlays"
-            android:textColor="?android:textColorPrimary"/>
+            android:textColor="?android:textColorPrimary" />
 
         <Button
             android:id="@+id/logcat"
@@ -70,7 +69,7 @@
             android:drawableEnd="@drawable/ic_log"
             android:drawablePadding="5dp"
             android:text="@string/error_activity_log"
-            android:textColor="?android:textColorPrimary"/>
+            android:textColor="?android:textColorPrimary" />
 
     </RelativeLayout>
 

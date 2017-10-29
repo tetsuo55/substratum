@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (c) 2016-2017 Projekt Substratum
   ~ This file is part of Substratum.
   ~
@@ -17,8 +16,7 @@
   ~ along with Substratum.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_gravity="center"
@@ -31,7 +29,7 @@
         android:layout_width="@dimen/app_splash_icon_width"
         android:layout_height="@dimen/app_splash_icon_height"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/substratum_icon"/>
+        android:src="@drawable/substratum_icon" />
 
     <ProgressBar
         android:id="@+id/progress_bar_loader"
@@ -40,6 +38,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="102dp"
         android:indeterminate="true"
-        android:indeterminateTint="@color/colorAccent"/>
+        android:indeterminateTint="@color/colorAccent" />
 
 </LinearLayout>
